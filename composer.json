@@ -2,5 +2,13 @@
   "name": "fl/ceramic-coatings",
   "type": "project",
   "autoload": { "psr-4": { "App\\": "app/" } },
-  "require": {}
+  "require": {},
+  "scripts": {
+    "post-install-cmd": [
+      "composer dump-autoload --optimize"
+    ],
+    "post-update-cmd": [
+      "composer dump-autoload --optimize"
+    ]
+  }
 }
