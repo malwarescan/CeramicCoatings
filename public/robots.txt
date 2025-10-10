@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Disallow API endpoints
+Disallow: /api/
+
+# Sitemaps
+Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://yourdomain.com/sitemap-matrix.xml
+Sitemap: https://yourdomain.com/sitemap-guides.xml
+Sitemap: https://yourdomain.com/sitemap-cities.xml

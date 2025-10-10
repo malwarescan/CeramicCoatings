@@ -1,0 +1,17 @@
+# Clean URLs, force index.php front-controller
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.php [L]
+</IfModule>
+# Security & perf nits
+Header set X-Content-Type-Options "nosniff"
+Header set X-Frame-Options "SAMEORIGIN"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+Header set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+# Cache static assets
+<FilesMatch "\.(css|js|png|jpg|jpeg|gif|svg|ico)$">
+  Header set Cache-Control "public, max-age=31536000, immutable"
+</FilesMatch>

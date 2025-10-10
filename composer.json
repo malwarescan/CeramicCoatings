@@ -1,0 +1,6 @@
+{
+  "name": "fl/ceramic-coatings",
+  "type": "project",
+  "autoload": { "psr-4": { "App\\": "app/" } },
+  "require": {}
+}

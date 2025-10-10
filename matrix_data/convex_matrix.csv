@@ -1,0 +1,27 @@
+service,city,county,lat,lng,vehicle_type,segment,pain_point,question
+ceramic-coating,Miami,Miami-Dade,25.7617,-80.1918,car,daily-driver,water-spots,Will water spots damage my coating?
+ceramic-coating,Miami,Miami-Dade,25.7617,-80.1918,boat,yacht,oxidation,How does coating prevent gelcoat oxidation?
+ceramic-coating,Tampa,Hillsborough,27.9506,-82.4572,car,daily-driver,salt-air,Does salt air affect coatings?
+ceramic-coating,Tampa,Hillsborough,27.9506,-82.4572,boat,pwc,uv-damage,How long does marine coating last?
+ceramic-coating,Orlando,Orange,28.5383,-81.3792,car,fleet,maintenance,What maintenance do fleets require?
+ceramic-coating,Jacksonville,Duval,30.3322,-81.6557,car,daily-driver,lovebugs,How do coatings help with lovebugs?
+ceramic-coating,Naples,Collier,26.1420,-81.7948,boat,yacht,salt-protection,Best coating for saltwater boats?
+ceramic-coating,Fort Myers,Lee,26.6406,-81.8723,car,daily-driver,humidity,Does humidity affect application?
+ceramic-coating,Destin,Okaloosa,30.3935,-86.4958,boat,pwc,easy-cleaning,How to maintain coated PWC?
+ceramic-coating,Daytona Beach,Volusia,29.2108,-81.0228,car,daily-driver,lovebugs,Lovebug protection tips?
+coating-maintenance,Miami,Miami-Dade,25.7617,-80.1918,car,daily-driver,water-spots,How to remove water spots?
+coating-maintenance,Tampa,Hillsborough,27.9506,-82.4572,car,daily-driver,maintenance,Best wash routine?
+coating-maintenance,Orlando,Orange,28.5383,-81.3792,car,fleet,cost,Maintenance cost per vehicle?
+water-spot-removal,Miami,Miami-Dade,25.7617,-80.1918,car,daily-driver,hard-water,Safe water spot removal?
+water-spot-removal,Fort Lauderdale,Broward,26.1224,-80.1373,car,daily-driver,hard-water,Mineral deposit removal?
+lovebug-protection,Jacksonville,Duval,30.3322,-81.6557,car,daily-driver,lovebugs,When is lovebug season?
+lovebug-protection,Gainesville,Alachua,29.6516,-82.3248,car,daily-driver,lovebugs,Best lovebug removal method?
+gelcoat-ceramic,Naples,Collier,26.1420,-81.7948,boat,yacht,oxidation,Gelcoat coating benefits?
+gelcoat-ceramic,Fort Myers,Lee,26.6406,-81.8723,boat,yacht,maintenance,Marine coating maintenance?
+coating-on-ppf,Miami,Miami-Dade,25.7617,-80.1918,car,daily-driver,protection,Can I coat over PPF?
+ceramic-coating,St. Petersburg,Pinellas,27.7676,-82.6403,car,daily-driver,salt-air,Coastal coating benefits?
+ceramic-coating,Sarasota,Sarasota,27.3364,-82.5307,car,daily-driver,uv-damage,UV protection effectiveness?
+ceramic-coating,Cape Coral,Lee,26.5629,-81.9495,boat,yacht,salt-protection,Best yacht coating?
+ceramic-coating,West Palm Beach,Palm Beach,26.7153,-80.0534,car,daily-driver,water-spots,Hard water area protection?
+ceramic-coating,Pensacola,Escambia,30.4213,-87.2169,boat,yacht,salt-protection,Gulf coast boat protection?
+
