@@ -17,10 +17,10 @@ a{color:var(--accent-2); text-decoration:none; transition:all 300ms ease-out}
 a:hover{text-decoration:underline; color:var(--action)}
 .container{width:100%; max-width:var(--max); margin:0 auto; padding-inline:var(--pad)}
 .header{
-  position:sticky; top:0; z-index:50; background:var(--bg); border-bottom:1px solid var(--accent-1); height:80px;
+  position:sticky; top:0; z-index:50; background:var(--bg); border-bottom:1px solid var(--accent-1); height:100px;
   backdrop-filter:blur(10px); background:rgba(248,247,245,0.95);
 }
-.header__inner{display:flex; align-items:center; justify-content:space-between; height:80px}
+.header__inner{display:flex; align-items:center; justify-content:space-between; height:100px}
 .brand{display:flex; align-items:center; gap:12px; font-weight:600; letter-spacing:0.4px; color:var(--primary)}
 .nav{display:flex; gap:20px}
 .nav a{color:var(--ink); padding:8px 2px; border-bottom:2px solid transparent; transition:all 300ms ease-out}
