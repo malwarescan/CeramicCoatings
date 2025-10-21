@@ -3,7 +3,7 @@
 $this->layout('layouts/base', [
   'title' => 'Ceramic Coatings Naples — Preserve Brilliance. Protect Legacy.',
   'metaDesc' => 'Luxury ceramic coating atelier in Naples, Florida. Engineered protection for discerning automotive collectors. Where science meets sophistication.',
-  'breadcrumbs' => [['href'=>'/','label'=>'Home']],
+  'breadcrumbs' => [],
   'jsonLd' => [
     [
       '@context'=>'https://schema.org','@type'=>'WebSite',

@@ -17,11 +17,17 @@ a{color:var(--accent-2); text-decoration:none; transition:all 300ms ease-out}
 a:hover{text-decoration:underline; color:var(--action)}
 .container{width:100%; max-width:var(--max); margin:0 auto; padding-inline:var(--pad)}
 .header{
-  position:sticky; top:0; z-index:50; background:var(--bg); border-bottom:1px solid var(--accent-1); height:120px;
+  position:sticky; top:0; z-index:50; background:var(--bg); border-bottom:1px solid var(--accent-1); height:80px;
   backdrop-filter:blur(10px); background:rgba(248,247,245,0.95);
 }
-.header__inner{display:flex; align-items:center; justify-content:space-between; height:120px}
-.brand{display:flex; align-items:center; gap:12px; font-weight:600; letter-spacing:0.4px; color:var(--primary)}
+.header__inner{display:flex; align-items:center; justify-content:space-between; height:80px}
+@media(min-width:768px){.header{height:100px} .header__inner{height:100px}}
+@media(min-width:1024px){.header{height:120px} .header__inner{height:120px}}
+.brand{display:flex; align-items:center; gap:8px; font-weight:600; letter-spacing:0.4px; color:var(--primary)}
+.brand img{height:48px; width:auto}
+@media(min-width:640px){.brand{gap:10px} .brand img{height:56px}}
+@media(min-width:768px){.brand{gap:12px} .brand img{height:64px}}
+@media(min-width:1024px){.brand img{height:80px}}
 .nav{display:flex; gap:20px}
 .nav a{color:var(--ink); padding:8px 2px; border-bottom:2px solid transparent; transition:all 300ms ease-out}
 .nav a:focus,.nav a:hover{border-color:var(--accent-1); outline:none; color:var(--accent-2)}
@@ -50,19 +56,21 @@ kbd,code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace; background:#f6
 .footer__grid{display:grid; gap:24px}
 @media(min-width:960px){.footer__grid{grid-template-columns:1.2fr 1fr 1fr}}
 .hero{
-  padding:120px 0; text-align:center; position:relative; overflow:hidden;
+  padding:80px 0; text-align:center; position:relative; overflow:hidden;
   background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), 
               url('/assets/Why-Ceramic-Coating-Is-Essential-for-Your-Car-980x653.jpeg') center/cover;
   filter:grayscale(100%);
 }
 .hero::after{
-  content:''; position:absolute; bottom:0; left:0; right:0; height:100px;
+  content:''; position:absolute; bottom:0; left:0; right:0; height:60px;
   background:linear-gradient(to bottom, transparent, var(--bg)); z-index:1;
 }
-.hero h1{margin:0 0 16px 0; font-size:32px; font-weight:600; color:#fff; letter-spacing:0.4px; position:relative; z-index:2}
-.hero p{margin:0 0 24px 0; color:rgba(255,255,255,0.9); font-size:18px; line-height:1.6; position:relative; z-index:2}
+.hero h1{margin:0 0 12px 0; font-size:24px; font-weight:600; color:#fff; letter-spacing:0.4px; position:relative; z-index:2}
+.hero p{margin:0 0 20px 0; color:rgba(255,255,255,0.9); font-size:16px; line-height:1.6; position:relative; z-index:2}
 .hero form{position:relative; z-index:2}
-@media(min-width:960px){.hero{padding:160px 0} .hero h1{font-size:48px} .hero p{font-size:20px}}
+@media(min-width:640px){.hero{padding:100px 0} .hero h1{font-size:28px} .hero p{font-size:17px} .hero::after{height:80px}}
+@media(min-width:768px){.hero{padding:120px 0} .hero h1{font-size:32px} .hero p{font-size:18px} .hero::after{height:100px}}
+@media(min-width:1024px){.hero{padding:160px 0} .hero h1{font-size:48px} .hero p{font-size:20px}}
 .breadcrumbs{font-size:14px; color:var(--muted); margin-bottom:16px; font-weight:500}
 .breadcrumbs a{color:var(--accent-2); transition:color 300ms ease-out}
 .breadcrumbs a:hover{color:var(--action)}
