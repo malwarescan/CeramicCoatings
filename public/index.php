@@ -4,6 +4,7 @@ require_once __DIR__.'/../vendor/autoload.php';
 use App\Core\View;
 use App\Controllers\HomeController;
 use App\Controllers\CityController;
+use App\Controllers\SearchController;
 
 $view = new View(__DIR__.'/../app/Views');
 
@@ -12,6 +13,12 @@ $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 // Very small router for demo
 if ($path === '/' || $path === '') {
   $controller = new HomeController($view);
+  echo $controller->index();
+  exit;
+}
+
+if ($path === '/search') {
+  $controller = new SearchController($view);
   echo $controller->index();
   exit;
 }

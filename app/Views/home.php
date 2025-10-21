@@ -7,10 +7,10 @@ $this->layout('layouts/base', [
   'jsonLd' => [
     [
       '@context'=>'https://schema.org','@type'=>'WebSite',
-      'url'=>'https://example.com/','name'=>'Ceramic Coatings Florida',
+      'url'=>'https://ceramiccoatings.us/','name'=>'Ceramic Coatings Florida',
       'potentialAction'=>[
         '@type'=>'SearchAction',
-        'target'=>'https://example.com/?q={search_term_string}',
+        'target'=>'https://ceramiccoatings.us/search?q={search_term_string}',
         'query-input'=>'required name=search_term_string'
       ]
     ]
