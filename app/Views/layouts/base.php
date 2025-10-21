@@ -28,8 +28,7 @@
 <header class="header" role="banner">
   <div class="container header__inner">
     <a class="brand" href="/" aria-label="Home">
-      <!-- Simple inline SVG logo (neutral) -->
-      <svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1116 0 8 8 0 01-16 0Z" fill="#1CA3EC"/><path d="M8 12h8M12 8v8" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg>
+      <img src="/assets/ceramic coatings logo.png" alt="Ceramic Coatings" style="height:32px; width:auto">
       <span>Ceramic Coatings Florida</span>
     </a>
     <nav class="nav" aria-label="Primary">
