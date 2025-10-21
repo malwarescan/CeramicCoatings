@@ -33,7 +33,7 @@
 <header class="header" role="banner">
   <div class="container header__inner">
     <a class="brand" href="/" aria-label="Home">
-      <img src="/assets/ceramic coatings logo.png" alt="Ceramic Coatings" style="height:64px; width:auto">
+      <img src="/assets/ceramic coatings logo.png" alt="Ceramic Coatings" style="height:80px; width:auto">
       <span>Ceramic Coatings Naples</span>
     </a>
     <nav class="nav" aria-label="Primary">
