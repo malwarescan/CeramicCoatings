@@ -15,9 +15,9 @@ a{color:var(--aqua); text-decoration:none}
 a:hover{text-decoration:underline}
 .container{width:100%; max-width:var(--max); margin:0 auto; padding-inline:var(--pad)}
 .header{
-  position:sticky; top:0; z-index:50; background:#fff; border-bottom:1px solid var(--line); height:60px;
+  position:sticky; top:0; z-index:50; background:#fff; border-bottom:1px solid var(--line); height:80px;
 }
-.header__inner{display:flex; align-items:center; justify-content:space-between; height:60px}
+.header__inner{display:flex; align-items:center; justify-content:space-between; height:80px}
 .brand{display:flex; align-items:center; gap:10px; font-weight:600; letter-spacing:.2px}
 .nav{display:flex; gap:20px}
 .nav a{color:var(--ink); padding:8px 2px; border-bottom:2px solid transparent}
