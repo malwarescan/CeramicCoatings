@@ -1,73 +1,75 @@
-# Brand Philosophy — Ceramic Coatings Florida
+# Brand Philosophy — Ceramic Coatings Naples
 
 ## Core Brand DNA
 
-Ceramic Coatings Florida embodies **technical precision meets practical wisdom**. The brand personality is authoritative yet approachable—a knowledgeable expert who speaks plainly about complex protection science. We position ourselves as the trusted resource for Florida's unique automotive and marine challenges, prioritizing evidence-based guidance over marketing hype. The emotional core centers on **confidence through knowledge**—empowering owners to make informed decisions about protecting their valuable investments in harsh Florida conditions.
+Ceramic Coatings Naples embodies **where science meets sophistication**. The brand personality is elegant, confident, and understated—a luxury atelier that speaks to automotive perfectionists who see protection as part of ownership pride. We position ourselves as an exclusive automotive preservation institution, prioritizing craftsmanship and mastery over mass-market solutions. The emotional core centers on **refinement through precision**—creating an inner circle of discerning owners who demand nothing less than perfection for their valuable investments.
 
 ## Visual Language
 
 **Color Palette:**
-- Primary: `#1CA3EC` (Aqua) — conveys trust, technology, and Florida's coastal identity
-- Text: `#0D1B2A` (Deep Navy) — authoritative, readable, professional
-- Background: `#FFFFFF` (Pure White) — clean, clinical, trustworthy
-- Accent: `#F4F1ED` (Sand) — subtle warmth, Florida's natural palette
-- Muted: `#6E6E6E` (Charcoal) — supportive information hierarchy
-- Status: `#0B8B3C` (Success Green), `#C27B00` (Warning Orange), `#9B1C1C` (Error Red)
+- Primary: `#141414` (Deep Graphite) — luxury, depth, modern precision
+- Accent 1: `#D7D2CB` (Champagne Silver) — subtle premium highlight, metallic sheen
+- Accent 2: `#0E4D92` (Naples Blue) — coastal prestige, clarity, trust
+- Background: `#F8F7F5` (Off-White Warm) — gentle warmth, luxury detailing
+- Text: `#0A0A0A` (Jet Black) — contrast and sophistication
+- Muted: `#A6A6A6` (Mist Gray) — fine print, polish, subtle contrast
+- Action: `#3BA4C8` (Aqua Steel) — reflective gloss accent, ceramic-inspired
 
 **Typography:**
-- System fonts: `-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Arial`
-- Line height: `1.6` — optimal readability for technical content
-- Letter spacing: `0.2px` — subtle sophistication in branding
-- Font weights: 400 (body), 600 (emphasis), bold (headings)
+- Primary: `Manrope` — clean, geometric sans-serif with luxury softness
+- Fallbacks: `Inter, -apple-system, Segoe UI, Roboto`
+- Line height: `1.6` — breathable luxury pacing
+- Letter spacing: `0.4px` — refined sophistication for uppercase titles
+- Font weights: 400 (body), 500 (subtle strength), 600 (statement elegance)
 
 **Geometry & Spacing:**
-- Border radius: `8px` — modern but not playful
+- Border radius: `6px` — soft, refined edges
 - Grid gaps: `20px` — consistent rhythm
-- Padding scale: `16px`, `24px`, `40px` — mathematical progression
-- Max width: `1200px` — comfortable reading width
+- Padding scale: `32px`, `48px`, `80px` — generous luxury spacing
+- Max width: `1280px` — spacious, premium layout
 
 ## Material Feel
 
-The design embraces **flat, clinical precision** with subtle depth through typography hierarchy and spacing. No gradients, shadows, or decorative elements—every visual choice serves functional communication. The aesthetic is **laboratory-clean** with **Florida warmth** through the sand accent color. Cards and components use simple borders (`#E8E8E8`) rather than shadows, maintaining a **technical manual** feel rather than marketing brochure.
+The design embraces **sophistication through restraint**—luxury through silence, not noise. Subtle gradients (`linear-gradient(180deg, rgba(255,255,255,0.04), rgba(0,0,0,0.08))`) emulate ceramic reflection through light layering. Cards feature champagne silver borders (`#D7D2CB`) with gentle shadows that create depth without distraction. The aesthetic is **atelier-refined** with **coastal prestige** through Naples Blue accents, maintaining a **luxury showroom** feel rather than technical documentation.
 
 ## Interaction & UX Tone
 
-Interactions are **deliberate and confident** with clear feedback. Hover states use the aqua accent color for consistency. Focus states include `2px solid` outlines with `2px offset` for accessibility. The interface feels **methodical**—like using professional-grade equipment where every control has purpose. Smooth scrolling (`scroll-behavior: smooth`) provides gentle guidance without distraction.
+Interactions are **elegant and refined** with subtle, deliberate motion. Hover states feature metallic reflection effects (`box-shadow: inset 0 0 10px rgba(255,255,255,0.1)`) and gentle transforms (`translateY(-2px)`). Focus states use champagne silver outlines (`2px solid #D7D2CB`) for accessibility. The interface feels **premium**—like interacting with luxury automotive controls where every touch is purposeful. Smooth transitions (`300ms ease-out`) provide refined pacing without distraction.
 
 ## Voice & Copy Style
 
-**Tone:** Direct, knowledgeable, no-nonsense
-**Style:** Technical but accessible, evidence-based, Florida-specific
-**Approach:** "No hype, just practical guidance" — this tagline defines the entire voice
+**Tone:** Elegant, concise, sensory
+**Style:** Luxury atelier explaining craftsmanship, not sales rep explaining product
+**Approach:** "Where science meets sophistication" — this tagline defines the entire voice
 
 **Key Messaging Patterns:**
-- "Evidence-based guidance for Florida conditions"
-- "No hype, just what works"
-- "Independent resource covering UV, salt air, humidity..."
-- "Limits: coatings are not 'scratch-proof'"
-- "Prefer a climate-controlled bay"
-- "Prompt cleanup still required"
+- "Engineered for the Gulf Coast, our coatings form a permanent barrier"
+- "Preserve Brilliance. Protect Legacy."
+- "Crafted Protection for Naples' Finest Automobiles"
+- "Beyond Shine—Preservation"
+- "Applied with precision under Naples' most controlled conditions"
+- "Every application is a meticulous process"
 
-**Content Strategy:** Resource-first approach prioritizing education over sales. FAQ-driven content addresses real Florida challenges (lovebugs, salt air, UV damage, humidity). Technical specifications presented matter-of-factly without exaggeration.
+**Content Strategy:** Atelier-first approach prioritizing craftsmanship over commoditization. Luxury-focused content addresses discerning owner concerns (permanence, exclusivity, mastery). Technical excellence presented as artistry without compromise.
 
 ## Competitive Positioning
 
-**Aesthetic Tier:** **Professional Technical** — sits between mass-market automotive and luxury detailing. More sophisticated than typical detailer websites, less flashy than premium automotive brands. Comparable to technical documentation or professional service websites.
+**Aesthetic Tier:** **Luxury Atelier** — sits above mass-market detailing and premium automotive services. More refined than typical detailer websites, more exclusive than mainstream luxury brands. Comparable to high-end automotive restoration or bespoke craftsmanship websites.
 
-**Market Position:** The **authoritative resource** for Florida-specific ceramic coating knowledge. Not trying to compete on luxury aesthetics, but on **credibility and local expertise**. Appeals to informed consumers who research before purchasing.
+**Market Position:** The **exclusive automotive preservation institution** for Naples' most discerning collectors. Not trying to compete on volume or accessibility, but on **craftsmanship and exclusivity**. Appeals to connoisseurs who demand nothing less than perfection.
 
-**Differentiation:** Florida-first focus, evidence-based claims, no marketing hyperbole. The brand says "We know Florida's challenges because we live them" rather than "We're the best everywhere."
+**Differentiation:** Naples-first focus, atelier-level craftsmanship, appointment-only service. The brand says "We preserve automotive legacy through mastery" rather than "We serve everyone efficiently."
 
 ## Brand Philosophy Summary
 
-**Our design expresses** technical competence through clean, purposeful aesthetics that prioritize information clarity over visual flourish. Every design decision reinforces our role as the authoritative resource for Florida's unique automotive protection challenges.
+**Our design expresses** sophistication through restraint—luxury through silence, not noise. Every design decision reinforces our role as an exclusive automotive preservation atelier that speaks to the most discerning collectors.
 
-**We choose** system fonts, flat design, and restrained color because they communicate reliability and focus on content over decoration. The aqua accent connects to Florida's coastal identity while maintaining professional credibility.
+**We choose** deep graphite and champagne tones because they capture the material essence of ceramic—gloss, depth, permanence—without cliché shine or gimmicks. The Naples Blue accent connects to coastal prestige while maintaining luxury credibility.
 
-**Our tone and visual cadence reinforce** the message that ceramic coating protection is serious business requiring informed decisions. We build trust through transparency about limitations and honest assessment of Florida's harsh conditions.
+**Our tone and visual cadence reinforce** the message that ceramic coating protection is artistry requiring mastery. We build trust through exclusivity and uncompromising standards of craftsmanship.
 
-**The feeling we aim to create in the user is** confident knowledge—like consulting with a trusted expert who has deep local experience and no agenda beyond providing accurate, practical guidance for protecting valuable investments in challenging Florida conditions.
+**The feeling we aim to create in the user is** trust through refinement. Visitors should leave believing that they've found not a service, but an institution of surface perfection—like stepping into a temperature-controlled detailing suite: calm, precise, impeccable.
 
 ---
 
-*This brand philosophy guides all design, content, and user experience decisions for Ceramic Coatings Florida, ensuring consistent expression of our core values: technical precision, Florida expertise, evidence-based guidance, and honest communication.*
+*This brand philosophy guides all design, content, and user experience decisions for Ceramic Coatings Naples, ensuring consistent expression of our core values: sophistication through restraint, Naples exclusivity, atelier-level craftsmanship, and luxury positioning.*

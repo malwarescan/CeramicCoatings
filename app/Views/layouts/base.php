@@ -15,6 +15,11 @@
     <style><?= $criticalCss ?></style>
   <?php endif; ?>
 
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
   <!-- Main CSS -->
   <link rel="preload" href="/assets/css/main.css" as="style">
   <link rel="stylesheet" href="/assets/css/main.css">
@@ -29,11 +34,11 @@
   <div class="container header__inner">
     <a class="brand" href="/" aria-label="Home">
       <img src="/assets/ceramic coatings logo.png" alt="Ceramic Coatings" style="height:48px; width:auto">
-      <span>Ceramic Coatings Florida</span>
+      <span>Ceramic Coatings Naples</span>
     </a>
     <nav class="nav" aria-label="Primary">
       <a href="/guides">Guides</a>
-      <a href="/ceramic-coating/fl">Florida Pillar</a>
+      <a href="/ceramic-coating/fl">Naples Services</a>
       <a href="/contact">Contact</a>
     </nav>
   </div>
@@ -53,10 +58,10 @@
     <div>
       <h3 style="margin-top:0">Business</h3>
       <p class="small">
-        Florida Ceramic Coatings Resource<br>
-        HQ: 123 Bayshore Blvd, Tampa, FL 33602<br>
-        Tel: <a href="tel:+1-844-555-0101">+1 (844) 555-0101</a><br>
-        Mon–Fri 9–5
+        Ceramic Coatings Naples<br>
+        Atelier: 123 Fifth Avenue South, Naples, FL 34102<br>
+        Tel: <a href="tel:+1-239-555-0101">+1 (239) 555-0101</a><br>
+        By Appointment Only
       </p>
     </div>
     <div>
@@ -69,10 +74,10 @@
     </div>
     <div>
       <h3 style="margin-top:0">Trust</h3>
-      <p class="small">No hype. No "scratch-proof" claims. Evidence-based info for Florida conditions.</p>
-      <span class="badge">FL-First</span>
-      <span class="badge">Auto</span>
-      <span class="badge">Marine</span>
+      <p class="small">Where science meets sophistication. Crafted protection for Naples' finest automobiles.</p>
+      <span class="badge">Naples</span>
+      <span class="badge">Luxury</span>
+      <span class="badge">Atelier</span>
     </div>
   </div>
 </footer>
