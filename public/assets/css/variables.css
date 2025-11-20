@@ -1,0 +1,39 @@
+:root {
+  /* Colors */
+  --color-bg: #050505;
+  --color-surface: #121212;
+  --color-surface-hover: #1a1a1a;
+  --color-text: #f0f0f0;
+  --color-text-muted: #a0a0a0;
+  --color-primary: #d4af37; /* Gold */
+  --color-primary-hover: #b5952f;
+  --color-accent: #e5e4e2; /* Platinum */
+  --color-border: #333333;
+  
+  /* Gradients */
+  --gradient-gold: linear-gradient(135deg, #d4af37 0%, #f2d06b 50%, #d4af37 100%);
+  --gradient-dark: linear-gradient(to bottom, #050505, #121212);
+  
+  /* Typography */
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Manrope', sans-serif;
+  
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 8rem;
+  
+  /* Layout */
+  --container-width: 1200px;
+  --header-height: 80px;
+  
+  /* Effects */
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.3);
+  --shadow-md: 0 4px 8px rgba(0,0,0,0.4);
+  --shadow-lg: 0 12px 24px rgba(0,0,0,0.5);
+  --glass-bg: rgba(18, 18, 18, 0.8);
+  --glass-border: 1px solid rgba(255, 255, 255, 0.1);
+  --backdrop-blur: blur(12px);
+}

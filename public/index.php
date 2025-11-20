@@ -29,5 +29,23 @@ if (preg_match('#^/(ceramic-coating|coating-maintenance|water-spot-removal|gelco
   exit;
 }
 
+if ($path === '/contact') {
+  $controller = new \App\Controllers\ContactController($view);
+  echo $controller->index();
+  exit;
+}
+
+if ($path === '/guides') {
+  $controller = new \App\Controllers\GuideController($view);
+  echo $controller->index();
+  exit;
+}
+
+if (preg_match('#^/guides/([a-z0-9\-]+)/?$#i', $path, $m)) {
+  $controller = new \App\Controllers\GuideController($view);
+  echo $controller->show($m[1]);
+  exit;
+}
+
 http_response_code(404);
 echo "<!doctype html><meta charset='utf-8'><title>404</title><body style='font-family:-apple-system,Segoe UI,Roboto,sans-serif;padding:40px'><h1>Not Found</h1><p>Route not defined.</p></body>";

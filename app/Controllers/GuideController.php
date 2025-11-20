@@ -3,19 +3,41 @@
 namespace App\Controllers;
 
 use App\Core\Controller;
+use App\Core\View;
 use App\Schema\LocalBusiness;
 use App\Schema\WebSite;
 use App\Schema\Breadcrumbs;
 
 class GuideController extends Controller
 {
-    public function show(string $slug): void
+    public function __construct(View $view) {
+        $this->view = $view;
+    }
+
+    public function index(): string
+    {
+        $guides = $this->getGuides();
+        
+        $breadcrumbs = [
+            ['name' => 'Home', 'url' => '/'],
+            ['name' => 'Guides', 'url' => '/guides']
+        ];
+
+        $this->setData('page_title', 'Auto Care Guides | Ceramic Coatings Naples');
+        $this->setData('page_description', 'Expert guides on ceramic coating maintenance, water spot removal, and marine protection.');
+        $this->setData('guides', $guides);
+        $this->setData('breadcrumbs', $breadcrumbs);
+        
+        return $this->render('guides_index');
+    }
+
+    public function show(string $slug): string
     {
         $guides = $this->getGuides();
         
         if (!isset($guides[$slug])) {
             $this->notFound();
-            return;
+            return '';
         }
 
         $guide = $guides[$slug];
@@ -38,7 +60,7 @@ class GuideController extends Controller
             'Breadcrumbs' => (new Breadcrumbs($breadcrumbs))->generate()
         ]);
         
-        $this->render('guide');
+        return $this->render('guide');
     }
 
     private function getGuides(): array
@@ -59,7 +81,7 @@ class GuideController extends Controller
                 'description' => 'Protect your ceramic coated vehicle during Florida\'s lovebug season with proper prevention and cleanup.',
                 'content' => $this->getLovebugContent()
             ],
-            'gelcoat-oxidation' => [
+            'marine-gelcoat' => [
                 'title' => 'Marine Gelcoat Oxidation Prevention',
                 'description' => 'How ceramic coatings help prevent gelcoat oxidation on boats in Florida\'s marine environment.',
                 'content' => $this->getGelcoatContent()

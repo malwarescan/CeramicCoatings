@@ -74,7 +74,7 @@ class SitemapController extends Controller
             'water-spot-removal',
             'wash-routine',
             'lovebug-season',
-            'gelcoat-oxidation'
+            'marine-gelcoat'
         ];
         
         foreach ($guides as $guide) {

@@ -12,9 +12,9 @@ abstract class Controller
         $this->view = new View();
     }
 
-    protected function render(string $template, array $data = []): void
+    protected function render(string $template, array $data = []): string
     {
-        $this->view->render($template, array_merge($this->data, $data));
+        return $this->view->render($template, array_merge($this->data, $data));
     }
 
     protected function json(array $data, int $status = 200): void
